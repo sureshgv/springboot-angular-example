@@ -1,0 +1,8 @@
+<div style="text-align:center">
+  <h2> Beer List </h2>
+</div>
+
+<div *ngFor="let b of beers" style="text-align:center" >
+  {{b.name}}<br>
+  <img src="{{b.giphyurl}}" width="200" alt="{{b.name}}">
+</div>
